@@ -1,0 +1,40 @@
+{
+  "name": "@civ-clone/base-treasury",
+  "version": "0.1.0",
+  "description": "Buying and selling with a treasury: buy-price formulas and the one-sale-a-turn record, for a ruleset to wrap in core-treasury's rules.",
+  "repository": "git@github.com:civ-clone/base-treasury.git",
+  "keywords": [
+    "typescript",
+    "civilization"
+  ],
+  "author": "dom111 <dom111@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "npm run ts:compile && npm run prettier:format",
+    "prettier:check": "prettier --config .prettierrc --check '**/*.ts'",
+    "prettier:format": "prettier --config .prettierrc '**/*.ts' --write",
+    "test": "ts-mocha ./tests/*.test.ts",
+    "ts:compile": "tsc --build tsconfig.json"
+  },
+  "devDependencies": {
+    "@civ-clone/base-city-yield-gold": "^0.1.1",
+    "@types/chai": "^4.0.0",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^16.0.0",
+    "chai": "^4.0.0",
+    "mocha": "^10.0.0",
+    "prettier": "^2.8.8",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^4.0.0"
+  },
+  "dependencies": {
+    "@civ-clone/core-city": "^0.1.23",
+    "@civ-clone/core-city-build": "^0.1.14",
+    "@civ-clone/core-city-improvement": "^0.1.7",
+    "@civ-clone/core-pending-effect": "^0.1.2",
+    "@civ-clone/core-rule": "^0.1.6",
+    "@civ-clone/core-treasury": "^0.1.9",
+    "@civ-clone/core-yield": "^0.1.6"
+  }
+}
