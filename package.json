@@ -1,6 +1,6 @@
 {
   "name": "@civ-clone/base-treasury",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Buying, selling and collecting with a treasury: buy-price formulas, the one-sale-a-turn record, the buy and sell player actions, the starting treasury and the collection of a city's yields with upkeep, for a ruleset to wrap in core-treasury's rules.",
   "repository": "git@github.com:civ-clone/base-treasury.git",
   "keywords": [
