@@ -1,7 +1,7 @@
 {
   "name": "@civ-clone/base-treasury",
   "version": "0.1.0",
-  "description": "Buying and selling with a treasury: buy-price formulas and the one-sale-a-turn record, for a ruleset to wrap in core-treasury's rules.",
+  "description": "Buying and selling with a treasury: buy-price formulas, the one-sale-a-turn record and the buy and sell player actions, for a ruleset to wrap in core-treasury's rules.",
   "repository": "git@github.com:civ-clone/base-treasury.git",
   "keywords": [
     "typescript",
@@ -33,6 +33,7 @@
     "@civ-clone/core-city-build": "^0.1.14",
     "@civ-clone/core-city-improvement": "^0.1.7",
     "@civ-clone/core-pending-effect": "^0.1.2",
+    "@civ-clone/core-player": "^0.1.10",
     "@civ-clone/core-rule": "^0.1.6",
     "@civ-clone/core-treasury": "^0.1.9",
     "@civ-clone/core-yield": "^0.1.6"
